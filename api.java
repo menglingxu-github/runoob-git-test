@@ -28,7 +28,7 @@ public class DubboConsumerAppApi {
             RegistryConfig registry = new RegistryConfig();
             registry.setAddress("zookeeper://172.22.200.12:2189");
             RegistryConfig registry1 = new RegistryConfig();
-            registry1.setAddress("zookeeper://172.22.200.12:2188");
+            registry1.setAddress("zookeeper://172.22.200.12:2186");
             RegistryConfig registry2 = new RegistryConfig();
             registry2.setAddress("zookeeper://172.22.200.12:2183");
             //registry.setAddress("zookeeper://localhost:2181");
