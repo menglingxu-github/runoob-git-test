@@ -26,7 +26,7 @@ public class DubboConsumerAppApi {
 
             // 连接注册中心配置
             RegistryConfig registry = new RegistryConfig();
-            registry.setAddress("zookeeper://172.22.200.12:2181");
+            registry.setAddress("zookeeper://172.22.200.12:2189");
             RegistryConfig registry1 = new RegistryConfig();
             registry1.setAddress("zookeeper://172.22.200.12:2182");
             RegistryConfig registry2 = new RegistryConfig();
